@@ -45,6 +45,7 @@ if (isset($_POST['send'])) {
 }
 $button = ($type == 'save') ? 'Добавить' : 'Обновить';
 ?>
+<a href="/">На главную</a><br>
 <h3><?=$button.' книгу'?></h3>
 <form action="" method="post">
     <input type="text" name="name" placeholder="Название книги" value="<?=$book->name?>">*<br>

@@ -27,6 +27,7 @@ if (isset($_POST['send'])) {
 }
 $button = ($type == 'save') ? 'Добавить' : 'Обновить';
 ?>
+<a href="/">На главную</a><br>
 <h3><?=$button.' автора'?></h3>
 <form action="" method="post">
     <input type="text" name="surname" placeholder="Фамилия" value="<?=$author->surname?>">*<br>

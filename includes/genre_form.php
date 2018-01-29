@@ -24,6 +24,7 @@ if (isset($_POST['send'])) {
 }
 $button = ($type == 'save') ? 'Добавить' : 'Обновить';
 ?>
+<a href="/">На главную</a><br>
 <h3><?=$button.' жанр'?></h3>
 <form action="" method="post">
     <input type="text" name="name" placeholder="Название жанра" value="<?=$genre->name?>">*<br>
